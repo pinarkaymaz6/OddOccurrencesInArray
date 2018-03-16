@@ -1,4 +1,4 @@
-# OddOccurrencesInArray
+# Odd Occurrences in Array
 
 A non-empty zero-indexed array A consisting of N integers is given. The array contains an odd number of elements, and each element of the array can be paired with another element that has the same value, except for one element that is left unpaired.
 
@@ -34,14 +34,3 @@ Complexity:
 expected worst-case time complexity is O(N);
 expected worst-case space complexity is O(1), beyond input storage (not counting the storage required for input arguments).
 Copyright 2009–2018 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited.
-
-
-This solution gives the right output. However, it has a time complexity of O(N**2). It may have the right solution however expected performance has not been met. Yet.'
-
-
-Codility Test Restults
-
-assume n is the number of elements in the input array;
-medium random test n=100,003                            running time: >7.00 sec., time limit: 1.09 sec.
-big random test n=999,999, multiple repetitions         running time: >14.00 sec., time limit: 8.05 sec.
-big random test n=999,999                               running time: >19.00 sec., time limit: 13.23 sec.
